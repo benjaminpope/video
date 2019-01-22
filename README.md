@@ -1,5 +1,5 @@
 # video
-Can we kill the radio star?
+Can we [kill the radio star](https://www.youtube.com/watch?v=Iwuy4hHO3YQ)?
 
 ## Idea
 
