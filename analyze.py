@@ -80,6 +80,8 @@ if __name__ == "__main__":
 
     print("total runtime:{0:.2f} minutes".format((time() - start_time)/60.0))
     
+    results.write('results/results_video.hdf5')
+    
     with open('rvs.csv', 'w') as f:
         f.write('JD, RV_wobble, RV_err_wobble, RV_pipeline, RV_err_pipeline\n')
         for i in range(data.N):
