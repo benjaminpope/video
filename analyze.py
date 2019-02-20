@@ -8,11 +8,11 @@ if __name__ == "__main__":
     
     starname = 'video'
     niter = 150 # for optimization
-    epochs_to_plot = [0,5]
+    epochs_to_plot = [0,5,10,14]
     
     orders = np.arange(40,69)
     data = wobble.Data('data/video_e2ds.hdf5', orders=orders, min_snr=1, order=4,
-                        plot_continuum=True, plot_dir='results/continuum/')
+                        plot_continuum=False, plot_dir='results/continuum/')
     results = wobble.Results(data=data)
     
     print("data loaded")
@@ -21,7 +21,8 @@ if __name__ == "__main__":
     
     for r,o in enumerate(orders):
         model = wobble.Model(data, results, r)
-        model.add_star('star')
+        model.add_star('star')#, starting_rvs = np.copy(data.pipeline_rvs))
+        #model.add_telluric('tellurics')
         print("--- ORDER {0} ---".format(o))
         wobble.optimize_order(model, niter=niter, save_history=True, basename='results/history',
                                   epochs_to_plot=epochs_to_plot, rv_uncertainties=True, movies=False)
@@ -29,13 +30,13 @@ if __name__ == "__main__":
         fig, ax = plt.subplots(1, 1, figsize=(8,5))
         ax.plot(data.dates, results.star_rvs[r] + data.bervs - np.mean(results.star_rvs[r] + data.bervs), 
                 'k.', alpha=0.8)
-        ax.plot(data.dates, data.pipeline_rvs + data.bervs - np.mean(data.pipeline_rvs + data.bervs), 
-                'r.', alpha=0.5)   
+        #ax.plot(data.dates, data.pipeline_rvs + data.bervs - np.mean(data.pipeline_rvs + data.bervs), 
+        #        'r.', alpha=0.5)   
         ax.set_ylabel('RV (m/s)', fontsize=14)     
         ax.set_xlabel('BJD', fontsize=14)   
         plt.savefig('results/results_rvs_o{0}.png'.format(o))
         plt.close(fig) 
-                  
+        
         for e in epochs_to_plot:
             fig, (ax, ax2) = plt.subplots(2, 1, gridspec_kw = {'height_ratios':[4, 1]}, figsize=(12,5))
             xs = np.exp(data.xs[r][e])
@@ -54,6 +55,30 @@ if __name__ == "__main__":
             fig.subplots_adjust(hspace=0.05)
             plt.savefig('results/results_synth_o{0}_e{1}.png'.format(o, e))
             plt.close(fig)
+        '''
+        for e in epochs_to_plot:
+            fig, (ax, ax2) = plt.subplots(2, 1, gridspec_kw = {'height_ratios':[4, 1]}, figsize=(12,5))
+            xs = np.exp(data.xs[r][e])
+            ax.scatter(xs, np.exp(data.ys[r][e]), marker=".", alpha=0.5, c='k', label='data', s=40)
+            mask = data.ivars[r][e] <= 1.e-8
+            ax.scatter(xs[mask], np.exp(data.ys[r][e][mask]), marker=".", alpha=1., c='white', s=20)
+            ax.plot(xs, np.exp(results.star_ys_predicted[r][e]), c='r', alpha=0.8)
+            ax.plot(xs, np.exp(results.tellurics_ys_predicted[r][e]), c='b', alpha=0.8)
+            ax2.scatter(xs, np.exp(data.ys[r][e]) - np.exp(results.star_ys_predicted[r][e]
+                                                        + results.tellurics_ys_predicted[r][e]), 
+                        marker=".", alpha=0.5, c='k', label='data', s=40)
+            ax2.scatter(xs[mask], np.exp(data.ys[r][e][mask]) - np.exp(results.star_ys_predicted[r][e]
+                                                        + results.tellurics_ys_predicted[r][e])[mask], 
+                        marker=".", alpha=1., c='white', s=20)
+            ax.set_ylim([0.0,1.3])
+            ax2.set_ylim([-0.08,0.08])
+            ax.set_xticklabels([])
+            fig.tight_layout()
+            fig.subplots_adjust(hspace=0.05)
+            plt.savefig('results/results_synth_o{0}_e{1}.png'.format(o, e))
+            plt.close(fig)
+        '''         
+        
             
         print("order {1} optimization finished. time elapsed: {0:.2f} min".format((time() - start_time)/60.0, o))
         print("this order took {0:.2f} min".format((time() - start_time - elapsed_time)/60.0))
