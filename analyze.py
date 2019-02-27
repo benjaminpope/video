@@ -5,16 +5,20 @@ from time import time
 
 if __name__ == "__main__":
     start_time = time()
-    
+    # dataset = '_feb' # or '_old' or ''
+    # dataset = '_old'
+    dataset = ''
     starname = 'video'
     niter = 150 # for optimization
-    epochs_to_plot = [0,5,10,14]
-    
+    K_star = 0
+    K_t = 3  
+
     orders = np.arange(40,69)
-    data = wobble.Data('data/video_e2ds.hdf5', orders=orders, min_snr=1, order=4,
+    data = wobble.Data('data/video_e2ds%s.hdf5' % dataset, orders=orders, min_snr=1, order=4,
                         plot_continuum=False, plot_dir='results/continuum/')
     results = wobble.Results(data=data)
-    
+    epochs_to_plot = data.epochs
+
     print("data loaded")
     print("time elapsed: {0:.2f} min".format((time() - start_time)/60.0))
     elapsed_time = time() - start_time
@@ -22,7 +26,8 @@ if __name__ == "__main__":
     for r,o in enumerate(orders):
         model = wobble.Model(data, results, r)
         model.add_star('star')#, starting_rvs = np.copy(data.pipeline_rvs))
-        #model.add_telluric('tellurics')
+        model.add_telluric('tellurics',rvs_fixed=True, variable_bases=K_t, 
+                                learning_rate_template=0.01)
         print("--- ORDER {0} ---".format(o))
         wobble.optimize_order(model, niter=niter, save_history=True, basename='results/history',
                                   epochs_to_plot=epochs_to_plot, rv_uncertainties=True, movies=False)
@@ -34,7 +39,7 @@ if __name__ == "__main__":
         #        'r.', alpha=0.5)   
         ax.set_ylabel('RV (m/s)', fontsize=14)     
         ax.set_xlabel('BJD', fontsize=14)   
-        plt.savefig('results/results_rvs_o{0}.png'.format(o))
+        plt.savefig('results/results_rvs{0}_o{1}.png'.format(dataset, o))
         plt.close(fig) 
         
         for e in epochs_to_plot:
@@ -53,7 +58,7 @@ if __name__ == "__main__":
             ax.set_xticklabels([])
             fig.tight_layout()
             fig.subplots_adjust(hspace=0.05)
-            plt.savefig('results/results_synth_o{0}_e{1}.png'.format(o, e))
+            plt.savefig('results/results_synth{0}_o{1}_e{2}.png'.format(dataset, o, e))
             plt.close(fig)
         '''
         for e in epochs_to_plot:
@@ -100,14 +105,14 @@ if __name__ == "__main__":
     ax2.set_ylabel(r'pipeline RV (m s$^{-1}$)', fontsize=14)
     fig.tight_layout()
     fig.subplots_adjust(hspace=0.05)
-    plt.savefig('results/results_rvs.png')
+    plt.savefig('results/results_rvs%s.png' % dataset)
     plt.close(fig)
 
     print("total runtime:{0:.2f} minutes".format((time() - start_time)/60.0))
     
-    results.write('results/results_video.hdf5')
+    results.write('results/results_video%s.hdf5' % dataset)
     
-    with open('rvs.csv', 'w') as f:
+    with open('rvs%s.csv' % dataset, 'w') as f:
         f.write('JD, RV_wobble, RV_err_wobble, RV_pipeline, RV_err_pipeline\n')
         for i in range(data.N):
             f.write('{0:.8f}, {1:.4f}, {2:.4f}, {3:.4f}, {4:.4f}\n'.format(data.dates[i], 

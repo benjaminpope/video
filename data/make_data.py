@@ -204,6 +204,14 @@ def write_data(data, ivars, xs, pipeline_rvs, pipeline_sigmas, dates, bervs, air
 
 if __name__ == "__main__":
     ccf_filelist = glob.glob('*/HARPN*ccf_K5_A.fits')
-    d = read_data_from_fits(ccf_filelist, instrument='HARPS-N')
-    hdffile = 'video_e2ds.hdf5'
-    write_data(*d, ccf_filelist, hdffile)
+    ccf_filelist.sort()
+    ccf_filelist.remove(ccf_filelist[1]) # one bad dataset
+
+    for j, fname in enumerate(ccf_filelist):
+        print(j)
+        flist = ccf_filelist.copy()
+        flist.remove(fname)
+        d = read_data_from_fits(flist, instrument='HARPS-N') # do pre-feb
+        hdffile = 'video_e2ds_%d.hdf5' % j 
+        write_data(*d, ccf_filelist, hdffile)
+        print('written data sans %s to %s' % (fname, hdffile))
