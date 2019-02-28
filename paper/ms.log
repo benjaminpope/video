@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,15 +526,15 @@ Overfull \vbox (5.98405pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../notebooks/comparison_validation.png, id=66, 777.98656pt x 533.3526pt>
+[2] <../notebooks/comparison_validation.png, id=81, 777.98656pt x 533.3526pt>
 File: ../notebooks/comparison_validation.png Graphic file (type png)
 
 <use ../notebooks/comparison_validation.png>
 Package pdftex.def Info: ../notebooks/comparison_validation.png used on input l
 ine 246.
 (pdftex.def)             Requested size: 426.79134pt x 292.58797pt.
- [2]
-<../notebooks/gj1151b_samples_trend.png, id=82, 746.79pt x 576.9555pt>
+
+<../notebooks/gj1151b_samples_trend.png, id=85, 746.79pt x 576.9555pt>
 File: ../notebooks/gj1151b_samples_trend.png Graphic file (type png)
 
 <use ../notebooks/gj1151b_samples_trend.png>
@@ -542,7 +542,7 @@ Package pdftex.def Info: ../notebooks/gj1151b_samples_trend.png used on input l
 ine 259.
 (pdftex.def)             Requested size: 426.79134pt x 329.7308pt.
 
-<../notebooks/gj412A_samples_trend.png, id=83, 423.86356pt x 292.33215pt>
+<../notebooks/gj412A_samples_trend.png, id=86, 423.86356pt x 292.33215pt>
 File: ../notebooks/gj412A_samples_trend.png Graphic file (type png)
 
 <use ../notebooks/gj412A_samples_trend.png>
@@ -550,7 +550,7 @@ Package pdftex.def Info: ../notebooks/gj412A_samples_trend.png used on input li
 ne 267.
 (pdftex.def)             Requested size: 426.79134pt x 294.361pt.
 
-<../notebooks/gj1151_cornerplot_km_trend.png, id=84, 534.19576pt x 540.8205pt>
+<../notebooks/gj1151_cornerplot_km_trend.png, id=87, 534.19576pt x 540.8205pt>
 File: ../notebooks/gj1151_cornerplot_km_trend.png Graphic file (type png)
 
 <use ../notebooks/gj1151_cornerplot_km_trend.png>
@@ -566,10 +566,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 10340 strings out of 492995
- 144075 string characters out of 6132704
- 279907 words of memory out of 5000000
- 13745 multiletter control sequences out of 15000+600000
+ 10345 strings out of 492995
+ 144136 string characters out of 6132704
+ 281433 words of memory out of 5000000
+ 13749 multiletter control sequences out of 15000+600000
  16397 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,7n,37p,2418b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -588,10 +588,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ms.pdf (7 pages, 974732 bytes).
+Output written on ms.pdf (7 pages, 975030 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
