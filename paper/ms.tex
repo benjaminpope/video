@@ -83,6 +83,7 @@
 %%
 % added by DH
 \usepackage{xspace}
+\usepackage{}
 
 \newcommand{\numax}{\mbox{$\nu_{\rm max}$}\xspace}
 \newcommand{\Dnu}{\mbox{$\Delta \nu$}\xspace}
@@ -246,13 +247,21 @@ Leave-one-out cross-validation of \textit{wobble} RVs. One epoch at a time is le
 \section{Keplerian Inference}
 \label{sec:joker}
 
-For both stars we use \textit{the Joker} pipeline \citep{joker}, which is optimized for small numbers of irregularly-spaced observations, to fit Keplerian signals and infer posterior planet parameters. We allow an additional astrophysical jitter (white noise) term to vary with a lognormal prior on jitter $\ln {s^2/(\text{m/s})^2} \sim \mathscr{N}(1,2)$ for GJ~1151, while a larger, fixed jitter of 5~m/s is required for GJ~412A.
+For both stars we use \textit{the Joker} pipeline \citep{joker}, which is optimized for small numbers of irregularly-spaced observations, to fit Keplerian signals and infer posterior planet parameters. We allow an additional astrophysical jitter (white noise) term to vary with a lognormal prior on jitter $\ln {(s/(\text{m/s}))^2} \sim {N}(1,2)$ for GJ~1151, while a larger, fixed jitter of 5~m/s is required for GJ~412A.
 
 \begin{figure}
 \noindent\includegraphics[width=15cm,keepaspectratio]{gj1151b_samples_trend.png}
 
-\caption{\label{jokermodel}
+\caption{\label{jokermodel1151}
 \textit{The Joker} posterior samples for GJ~1151.
+}
+\end{figure}
+
+\begin{figure}
+\noindent\includegraphics[width=15cm,keepaspectratio]{gj412A_samples_trend.png}
+
+\caption{\label{jokermodel412A}
+\textit{The Joker} posterior samples for GJ~412A.
 }
 \end{figure}
 

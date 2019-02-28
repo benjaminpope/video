@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,31 +417,31 @@ neric.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
 ftex.tex))
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 172.
+lass! (Proceeding with fingers crossed.) on input line 173.
 Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 172.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 172
+ fingers crossed) on input line 173.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 173
 .
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 172.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 172.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 172.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 173.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 173.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 173.
  (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -474,7 +474,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 172.
+Package hyperref Info: Link coloring ON on input line 173.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -484,32 +484,32 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 172.
-LaTeX Info: Redefining \pageref on input line 172.
-LaTeX Info: Redefining \nameref on input line 172.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 176.
+LaTeX Info: Redefining \ref on input line 173.
+LaTeX Info: Redefining \pageref on input line 173.
+LaTeX Info: Redefining \nameref on input line 173.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 177.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 176.
+LaTeX Font Info:    Try loading font information for U+msa on input line 177.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 176.
+LaTeX Font Info:    Try loading font information for U+msb on input line 177.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 176.
+t line 177.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 211.
+line 212.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
@@ -517,7 +517,7 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 
-Overfull \hbox (8.6399pt too wide) in paragraph at lines 222--222
+Overfull \hbox (8.6399pt too wide) in paragraph at lines 223--223
 [][] 
  []
 
@@ -531,7 +531,7 @@ File: ../notebooks/comparison_validation.png Graphic file (type png)
 
 <use ../notebooks/comparison_validation.png>
 Package pdftex.def Info: ../notebooks/comparison_validation.png used on input l
-ine 239.
+ine 240.
 (pdftex.def)             Requested size: 426.79134pt x 292.58797pt.
 
 <../notebooks/gj1151b_samples_trend.png, id=69, 746.79pt x 576.9555pt>
@@ -539,32 +539,41 @@ File: ../notebooks/gj1151b_samples_trend.png Graphic file (type png)
 
 <use ../notebooks/gj1151b_samples_trend.png>
 Package pdftex.def Info: ../notebooks/gj1151b_samples_trend.png used on input l
-ine 252.
+ine 253.
 (pdftex.def)             Requested size: 426.79134pt x 329.7308pt.
+ [2]
+<../notebooks/gj412A_samples_trend.png, id=84, 409.7709pt x 292.33215pt>
+File: ../notebooks/gj412A_samples_trend.png Graphic file (type png)
 
-<../notebooks/gj1151_cornerplot_km_trend.png, id=70, 534.19576pt x 540.8205pt>
+<use ../notebooks/gj412A_samples_trend.png>
+Package pdftex.def Info: ../notebooks/gj412A_samples_trend.png used on input li
+ne 261.
+(pdftex.def)             Requested size: 426.79134pt x 304.48662pt.
+
+<../notebooks/gj1151_cornerplot_km_trend.png, id=85, 534.19576pt x 540.8205pt>
 File: ../notebooks/gj1151_cornerplot_km_trend.png Graphic file (type png)
 
 <use ../notebooks/gj1151_cornerplot_km_trend.png>
 Package pdftex.def Info: ../notebooks/gj1151_cornerplot_km_trend.png used on in
-put line 260.
+put line 269.
 (pdftex.def)             Requested size: 426.79134pt x 432.08757pt.
- [2] [3 <../notebooks/comparison_validation.png>] (./ms.bbl [4 <../notebooks/gj
-1151b_samples_trend.png>]
-[5 <../notebooks/gj1151_cornerplot_km_trend.png>]) [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+ [3 <../notebooks/comparison_validation.png>] (./ms.bbl [4 <../notebooks/gj1151
+b_samples_trend.png>])
+[5 <../notebooks/gj412A_samples_trend.png>] [6 <../notebooks/gj1151_cornerplot_
+km_trend.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 310.
  ) 
 Here is how much of TeX's memory you used:
- 10327 strings out of 492995
- 143804 string characters out of 6132704
- 281175 words of memory out of 5000000
- 13736 multiletter control sequences out of 15000+600000
+ 10333 strings out of 492995
+ 144012 string characters out of 6132704
+ 291550 words of memory out of 5000000
+ 13740 multiletter control sequences out of 15000+600000
  16397 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,7n,37p,2418b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,37p,2418b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -574,16 +583,16 @@ cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
->
-Output written on ms.pdf (6 pages, 832537 bytes).
+r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ms.pdf (6 pages, 966370 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
