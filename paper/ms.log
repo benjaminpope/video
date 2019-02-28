@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,6 +406,9 @@ Package: ulem 2012/05/18
 \widetext@top=\box54
 \widetext@bot=\box55
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
@@ -414,31 +417,31 @@ neric.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
 ftex.tex))
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 170.
+lass! (Proceeding with fingers crossed.) on input line 172.
 Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 170.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 170
+ fingers crossed) on input line 172.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 172
 .
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 170.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 170.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 170.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 172.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 172.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 172.
  (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
-LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
+LaTeX Font Info:    ... okay on input line 172.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -471,7 +474,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 170.
+Package hyperref Info: Link coloring ON on input line 172.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -481,32 +484,32 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 170.
-LaTeX Info: Redefining \pageref on input line 170.
-LaTeX Info: Redefining \nameref on input line 170.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 174.
+LaTeX Info: Redefining \ref on input line 172.
+LaTeX Info: Redefining \pageref on input line 172.
+LaTeX Info: Redefining \nameref on input line 172.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 176.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 174.
+LaTeX Font Info:    Try loading font information for U+msa on input line 176.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 174.
+LaTeX Font Info:    Try loading font information for U+msb on input line 176.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 174.
+t line 176.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 209.
+line 211.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
@@ -514,48 +517,54 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 
-Overfull \hbox (8.6399pt too wide) in paragraph at lines 220--220
+Overfull \hbox (8.6399pt too wide) in paragraph at lines 222--222
 [][] 
  []
 
-<../notebooks/gj1151b_samples.png, id=13, 754.86015pt x 512.75565pt>
-File: ../notebooks/gj1151b_samples.png Graphic file (type png)
 
-<use ../notebooks/gj1151b_samples.png>
-Package pdftex.def Info: ../notebooks/gj1151b_samples.png used on input line 22
-9.
-(pdftex.def)             Requested size: 426.79134pt x 289.91089pt.
+Overfull \vbox (5.98405pt too high) has occurred while \output is active []
 
-<../notebooks/cornerplot_k.png, id=15, 534.0753pt x 540.94095pt>
-File: ../notebooks/cornerplot_k.png Graphic file (type png)
 
-<use ../notebooks/cornerplot_k.png>
-Package pdftex.def Info: ../notebooks/cornerplot_k.png used on input line 237.
-(pdftex.def)             Requested size: 426.79134pt x 432.28285pt.
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../notebooks/comparison_validation.png, id=65, 777.98656pt x 533.3526pt>
+File: ../notebooks/comparison_validation.png Graphic file (type png)
 
-<../notebooks/gj1151b_mass.png, id=16, 419.166pt x 293.05486pt>
-File: ../notebooks/gj1151b_mass.png Graphic file (type png)
+<use ../notebooks/comparison_validation.png>
+Package pdftex.def Info: ../notebooks/comparison_validation.png used on input l
+ine 239.
+(pdftex.def)             Requested size: 426.79134pt x 292.58797pt.
 
-<use ../notebooks/gj1151b_mass.png>
-Package pdftex.def Info: ../notebooks/gj1151b_mass.png used on input line 245.
-(pdftex.def)             Requested size: 426.79134pt x 298.3888pt.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./m
-s.bbl [2 <../notebooks/gj1151b_samples.png>]) [3 <../notebooks/cornerplot_k.png
->] [4 <../notebooks/gj1151b_mass.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+<../notebooks/gj1151b_samples_trend.png, id=69, 746.79pt x 576.9555pt>
+File: ../notebooks/gj1151b_samples_trend.png Graphic file (type png)
 
-(./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 284.
+<use ../notebooks/gj1151b_samples_trend.png>
+Package pdftex.def Info: ../notebooks/gj1151b_samples_trend.png used on input l
+ine 252.
+(pdftex.def)             Requested size: 426.79134pt x 329.7308pt.
+
+<../notebooks/gj1151_cornerplot_km_trend.png, id=70, 534.19576pt x 540.8205pt>
+File: ../notebooks/gj1151_cornerplot_km_trend.png Graphic file (type png)
+
+<use ../notebooks/gj1151_cornerplot_km_trend.png>
+Package pdftex.def Info: ../notebooks/gj1151_cornerplot_km_trend.png used on in
+put line 260.
+(pdftex.def)             Requested size: 426.79134pt x 432.08757pt.
+ [2] [3 <../notebooks/comparison_validation.png>] (./ms.bbl [4 <../notebooks/gj
+1151b_samples_trend.png>])
+[5 <../notebooks/gj1151_cornerplot_km_trend.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 299.
+ (./ms.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 299.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 299.
  ) 
 Here is how much of TeX's memory you used:
- 10235 strings out of 492995
- 141956 string characters out of 6132704
- 273899 words of memory out of 5000000
- 13662 multiletter control sequences out of 15000+600000
- 15704 words of font info for 64 fonts, out of 8000000 for 9000
+ 10327 strings out of 492995
+ 143808 string characters out of 6132704
+ 282160 words of memory out of 5000000
+ 13737 multiletter control sequences out of 15000+600000
+ 16397 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,7n,37p,654b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,7n,37p,2418b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -565,14 +574,16 @@ cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
-fb>
-Output written on ms.pdf (4 pages, 1081792 bytes).
+r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+>
+Output written on ms.pdf (5 pages, 831686 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 179 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

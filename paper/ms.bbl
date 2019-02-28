@@ -16,13 +16,110 @@
 {Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
   \aap, 558, A33, \dodoi{10.1051/0004-6361/201322068}
 
+\bibitem[{{Bastian} {et~al.}(2000){Bastian}, {Dulk}, \&
+  {Leblanc}}]{2000ApJ...545.1058B}
+{Bastian}, T.~S., {Dulk}, G.~A., \& {Leblanc}, Y. 2000, \apj, 545, 1058,
+  \dodoi{10.1086/317864}
+
+\bibitem[{{Bedell} {et~al.}(2019){Bedell}, {Hogg}, {Foreman-Mackey}, {Montet},
+  \& {Luger}}]{wobble}
+{Bedell}, M., {Hogg}, D.~W., {Foreman-Mackey}, D., {Montet}, B.~T., \& {Luger},
+  R. 2019, arXiv e-prints.
+\newblock \doarXiv{1901.00503}
+
+\bibitem[{{Butler} {et~al.}(2017){Butler}, {Vogt}, {Laughlin}, {Burt},
+  {Rivera}, {Tuomi}, {Teske}, {Arriagada}, {Diaz}, {Holden}, \&
+  {Keiser}}]{hires}
+{Butler}, R.~P., {Vogt}, S.~S., {Laughlin}, G., {et~al.} 2017, \aj, 153, 208,
+  \dodoi{10.3847/1538-3881/aa66ca}
+
+\bibitem[{Callingham {et~al.}(2019)Callingham, Vedantham, Pope, \&
+  and}]{Callingham_2019}
+Callingham, J.~R., Vedantham, H.~K., Pope, B. J.~S., \& and, T. W.~S. 2019,
+  Research Notes of the {AAS}, 3, 37, \dodoi{10.3847/2515-5172/ab07c3}
+
+\bibitem[{{Cosentino} {et~al.}(2012){Cosentino}, {Lovis}, {Pepe}, {Collier
+  Cameron}, {Latham}, {Molinari}, {Udry}, {Bezawada}, {Black}, {Born},
+  {Buchschacher}, {Charbonneau}, {Figueira}, {Fleury}, {Galli}, {Gallie},
+  {Gao}, {Ghedina}, {Gonzalez}, {Gonzalez}, {Guerra}, {Henry}, {Horne},
+  {Hughes}, {Kelly}, {Lodi}, {Lunney}, {Maire}, {Mayor}, {Micela}, {Ordway},
+  {Peacock}, {Phillips}, {Piotto}, {Pollacco}, {Queloz}, {Rice}, {Riverol},
+  {Riverol}, {San Juan}, {Sasselov}, {Segransan}, {Sozzetti}, {Sosnowska},
+  {Stobie}, {Szentgyorgyi}, {Vick}, \& {Weber}}]{harpsn}
+{Cosentino}, R., {Lovis}, C., {Pepe}, F., {et~al.} 2012, in \procspie, Vol.
+  8446, Ground-based and Airborne Instrumentation for Astronomy IV, 84461V
+
+\bibitem[{{Dewdney} {et~al.}(2009){Dewdney}, {Hall}, {Schilizzi}, \&
+  {Lazio}}]{2009IEEEP..97.1482D}
+{Dewdney}, P.~E., {Hall}, P.~J., {Schilizzi}, R.~T., \& {Lazio}, T.~J.~L.~W.
+  2009, IEEE Proceedings, 97, 1482, \dodoi{10.1109/JPROC.2009.2021005}
+
 \bibitem[{Jones {et~al.}(2001)Jones, Oliphant, Peterson, \& Others}]{scipy}
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
 \newblock \url{http://www.scipy.org/}
 
+\bibitem[{{Lecavelier des Etangs} {et~al.}(2013){Lecavelier des Etangs},
+  {Sirothia}, {Gopal-Krishna}, \& {Zarka}}]{2013A&A...552A..65L}
+{Lecavelier des Etangs}, A., {Sirothia}, S.~K., {Gopal-Krishna}, \& {Zarka}, P.
+  2013, \aap, 552, A65, \dodoi{10.1051/0004-6361/201219789}
+
+\bibitem[{{Lynch} {et~al.}(2018){Lynch}, {Murphy}, {Lenc}, \&
+  {Kaplan}}]{2018MNRAS.tmp.1077L}
+{Lynch}, C.~R., {Murphy}, T., {Lenc}, E., \& {Kaplan}, D.~L. 2018, \mnras,
+  \dodoi{10.1093/mnras/sty1138}
+
+\bibitem[{Mamajek(2016)}]{Mamajek2016}
+Mamajek, E. 2016, \dodoi{10.6084/m9.figshare.4057704.v1}
+
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
+
+\bibitem[{{Pope} {et~al.}(2019){Pope}, {Withers}, {Callingham}, \&
+  {Vogt}}]{pope19}
+{Pope}, B.~J.~S., {Withers}, P., {Callingham}, J.~R., \& {Vogt}, M.~F. 2019,
+  \mnras, 484, 648, \dodoi{10.1093/mnras/sty3512}
+
+\bibitem[{{Price-Whelan} {et~al.}(2017){Price-Whelan}, {Hogg},
+  {Foreman-Mackey}, \& {Rix}}]{joker}
+{Price-Whelan}, A.~M., {Hogg}, D.~W., {Foreman-Mackey}, D., \& {Rix}, H.-W.
+  2017, \apj, 837, 20, \dodoi{10.3847/1538-4357/aa5e50}
+
+\bibitem[{{van Haarlem} {et~al.}(2013){van Haarlem}, {Wise}, {Gunst}, {Heald},
+  {McKean}, {Hessels}, {de Bruyn}, {Nijboer}, {Swinbank}, {Fallows},
+  {Brentjens}, {Nelles}, {Beck}, {Falcke}, {Fender}, {H{\"o}randel},
+  {Koopmans}, {Mann}, {Miley}, {R{\"o}ttgering}, {Stappers}, {Wijers},
+  {Zaroubi}, {van den Akker}, {Alexov}, {Anderson}, {Anderson}, {van Ardenne},
+  {Arts}, {Asgekar}, {Avruch}, {Batejat}, {B{\"a}hren}, {Bell}, {Bell}, {van
+  Bemmel}, {Bennema}, {Bentum}, {Bernardi}, {Best}, {B{\^i}rzan}, {Bonafede},
+  {Boonstra}, {Braun}, {Bregman}, {Breitling}, {van de Brink}, {Broderick},
+  {Broekema}, {Brouw}, {Br{\"u}ggen}, {Butcher}, {van Cappellen}, {Ciardi},
+  {Coenen}, {Conway}, {Coolen}, {Corstanje}, {Damstra}, {Davies}, {Deller},
+  {Dettmar}, {van Diepen}, {Dijkstra}, {Donker}, {Doorduin}, {Dromer}, {Drost},
+  {van Duin}, {Eisl{\"o}ffel}, {van Enst}, {Ferrari}, {Frieswijk}, {Gankema},
+  {Garrett}, {de Gasperin}, {Gerbers}, {de Geus}, {Grie{\ss}meier}, {Grit},
+  {Gruppen}, {Hamaker}, {Hassall}, {Hoeft}, {Holties}, {Horneffer}, {van der
+  Horst}, {van Houwelingen}, {Huijgen}, {Iacobelli}, {Intema}, {Jackson},
+  {Jelic}, {de Jong}, {Juette}, {Kant}, {Karastergiou}, {Koers}, {Kollen},
+  {Kondratiev}, {Kooistra}, {Koopman}, {Koster}, {Kuniyoshi}, {Kramer},
+  {Kuper}, {Lambropoulos}, {Law}, {van Leeuwen}, {Lemaitre}, {Loose}, {Maat},
+  {Macario}, {Markoff}, {Masters}, {McFadden}, {McKay-Bukowski}, {Meijering},
+  {Meulman}, {Mevius}, {Middelberg}, {Millenaar}, {Miller-Jones}, {Mohan},
+  {Mol}, {Morawietz}, {Morganti}, {Mulcahy}, {Mulder}, {Munk}, {Nieuwenhuis},
+  {van Nieuwpoort}, {Noordam}, {Norden}, {Noutsos}, {Offringa}, {Olofsson},
+  {Omar}, {Orr{\'u}}, {Overeem}, {Paas}, {Pandey-Pommier}, {Pandey}, {Pizzo},
+  {Polatidis}, {Rafferty}, {Rawlings}, {Reich}, {de Reijer}, {Reitsma},
+  {Renting}, {Riemers}, {Rol}, {Romein}, {Roosjen}, {Ruiter}, {Scaife}, {van
+  der Schaaf}, {Scheers}, {Schellart}, {Schoenmakers}, {Schoonderbeek},
+  {Serylak}, {Shulevski}, {Sluman}, {Smirnov}, {Sobey}, {Spreeuw}, {Steinmetz},
+  {Sterks}, {Stiepel}, {Stuurwold}, {Tagger}, {Tang}, {Tasse}, {Thomas},
+  {Thoudam}, {Toribio}, {van der Tol}, {Usov}, {van Veelen}, {van der Veen},
+  {ter Veen}, {Verbiest}, {Vermeulen}, {Vermaas}, {Vocks}, {Vogt}, {de Vos},
+  {van der Wal}, {van Weeren}, {Weggemans}, {Weltevrede}, {White}, {Wijnholds},
+  {Wilhelmsson}, {Wucknitz}, {Yatawatta}, {Zarka}, {Zensus}, \& {van
+  Zwieten}}]{lofar}
+{van Haarlem}, M.~P., {Wise}, M.~W., {Gunst}, A.~W., {et~al.} 2013, \aap, 556,
+  A2, \dodoi{10.1051/0004-6361/201220873}
 
 \end{thebibliography}
