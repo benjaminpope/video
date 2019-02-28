@@ -69,6 +69,12 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 {Lynch}, C.~R., {Murphy}, T., {Lenc}, E., \& {Kaplan}, D.~L. 2018, \mnras,
   \dodoi{10.1093/mnras/sty1138}
 
+\bibitem[{{Mahadevan} {et~al.}(2012){Mahadevan}, {Ramsey}, {Bender}, {Terrien},
+  {Wright}, {Halverson}, {Hearty}, {Nelson}, {Burton}, {Redman}, {Osterman},
+  {Diddams}, {Kasting}, {Endl}, \& {Deshpande}}]{hpf}
+{Mahadevan}, S., {Ramsey}, L., {Bender}, C., {et~al.} 2012, in \procspie, Vol.
+  8446, Ground-based and Airborne Instrumentation for Astronomy IV, 84461S
+
 \bibitem[{Mamajek(2016)}]{Mamajek2016}
 Mamajek, E. 2016, \dodoi{10.6084/m9.figshare.4057704.v1}
 
