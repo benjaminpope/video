@@ -14,7 +14,7 @@ if __name__ == "__main__":
     K_star = 0
     K_t = 3  
 
-    for index in range(18)[14:]:
+    for index in range(18):
         fname = 'data/video_e2ds_%d.hdf5' % index
         dataset = str(index)
         orders = np.arange(40,69)
