@@ -54,6 +54,16 @@ Callingham, J.~R., Vedantham, H.~K., Pope, B. J.~S., \& and, T. W.~S. 2019,
 {Dewdney}, P.~E., {Hall}, P.~J., {Schilizzi}, R.~T., \& {Lazio}, T.~J.~L.~W.
   2009, IEEE Proceedings, 97, 1482, \dodoi{10.1109/JPROC.2009.2021005}
 
+\bibitem[{{Garraffo} {et~al.}(2016){Garraffo}, {Drake}, \&
+  {Cohen}}]{2016ApJ...833L...4G}
+{Garraffo}, C., {Drake}, J.~J., \& {Cohen}, O. 2016, \apjl, 833, L4,
+  \dodoi{10.3847/2041-8205/833/1/L4}
+
+\bibitem[{{Garraffo} {et~al.}(2017){Garraffo}, {Drake}, {Cohen},
+  {Alvarado-G{\'o}mez}, \& {Moschou}}]{2017ApJ...843L..33G}
+{Garraffo}, C., {Drake}, J.~J., {Cohen}, O., {Alvarado-G{\'o}mez}, J.~D., \&
+  {Moschou}, S.~P. 2017, \apjl, 843, L33, \dodoi{10.3847/2041-8213/aa79ed}
+
 \bibitem[{{Hardegree-Ullman} {et~al.}(2019){Hardegree-Ullman}, {Cushing},
   {Muirhead}, \& {Christiansen}}]{2019arXiv190505900H}
 {Hardegree-Ullman}, K.~K., {Cushing}, M.~C., {Muirhead}, P.~S., \&
@@ -83,6 +93,10 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 
 \bibitem[{Mamajek(2016)}]{Mamajek2016}
 Mamajek, E. 2016, \dodoi{10.6084/m9.figshare.4057704.v1}
+
+\bibitem[{{O'Malley-James} \& {Kaltenegger}(2019)}]{2019MNRAS.485.5598O}
+{O'Malley-James}, J.~T., \& {Kaltenegger}, L. 2019, \mnras, 485, 5598,
+  \dodoi{10.1093/mnras/stz724}
 
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
@@ -115,6 +129,11 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   Vol. 7735, Ground-based and Airborne Instrumentation for Astronomy III,
   773513
 
+\bibitem[{{Shields} {et~al.}(2016){Shields}, {Ballard}, \&
+  {Johnson}}]{Shields16}
+{Shields}, A.~L., {Ballard}, S., \& {Johnson}, J.~A. 2016, \physrep, 663, 1,
+  \dodoi{10.1016/j.physrep.2016.10.003}
+
 \bibitem[{{Shimwell} {et~al.}(2019){Shimwell}, {Tasse}, {Hardcastle}, {Mechev},
   {Williams}, {Best}, {R{\"o}ttgering}, {Callingham}, {Dijkema}, {de Gasperin},
   {Hoang}, {Hugo}, {Mirmont}, {Oonk}, {Prandoni}, {Rafferty}, {Sabater},
@@ -135,6 +154,11 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   {Varenius}, {Webster}, \& {Wilber}}]{lotss}
 {Shimwell}, T.~W., {Tasse}, C., {Hardcastle}, M.~J., {et~al.} 2019, \aap, 622,
   A1, \dodoi{10.1051/0004-6361/201833559}
+
+\bibitem[{{Tilley} {et~al.}(2019){Tilley}, {Segura}, {Meadows}, {Hawley}, \&
+  {Davenport}}]{2019AsBio..19...64T}
+{Tilley}, M.~A., {Segura}, A., {Meadows}, V., {Hawley}, S., \& {Davenport}, J.
+  2019, Astrobiology, 19, 64, \dodoi{10.1089/ast.2017.1794}
 
 \bibitem[{{van Haarlem} {et~al.}(2013){van Haarlem}, {Wise}, {Gunst}, {Heald},
   {McKean}, {Hessels}, {de Bruyn}, {Nijboer}, {Swinbank}, {Fallows},
