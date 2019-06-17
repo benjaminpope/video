@@ -54,6 +54,12 @@ Callingham, J.~R., Vedantham, H.~K., Pope, B. J.~S., \& and, T. W.~S. 2019,
 {Dewdney}, P.~E., {Hall}, P.~J., {Schilizzi}, R.~T., \& {Lazio}, T.~J.~L.~W.
   2009, IEEE Proceedings, 97, 1482, \dodoi{10.1109/JPROC.2009.2021005}
 
+\bibitem[{{Hardegree-Ullman} {et~al.}(2019){Hardegree-Ullman}, {Cushing},
+  {Muirhead}, \& {Christiansen}}]{2019arXiv190505900H}
+{Hardegree-Ullman}, K.~K., {Cushing}, M.~C., {Muirhead}, P.~S., \&
+  {Christiansen}, J.~L. 2019, arXiv e-prints.
+\newblock \doarXiv{1905.05900}
+
 \bibitem[{Jones {et~al.}(2001)Jones, Oliphant, Peterson, \& Others}]{scipy}
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
