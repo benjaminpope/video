@@ -174,7 +174,7 @@
 
 \begin{document}
 
-\title{Radial Velocity Upper Limits on Planets around Radio Exoplanet Candidates GJ~1151 and GJ~412A}
+\title{Radial Velocity Upper Limits on Planets around GJ\,1151}
 
 \correspondingauthor{Benjamin J. S. Pope \twitter{fringetracker}}
 \email{benjamin.pope@nyu}
@@ -210,11 +210,11 @@
 
 %% Mark off the abstract in the ``abstract'' environment. 
 \begin{abstract}
-The recent detection of circularly polarized, variable low-frequency radio emission from the M~dwarfs GJ~412A and GJ~1151 has been interpreted as a Jupiter-like electron cyclotron maser instability arising from star-planet interaction. The existence or parameters of the proposed planets have not been determined. In order to search for these planets, we have obtained new HARPS-N and HPF precise RV data on both stars, and re-analyzed archival Keck-HIRES RV data for GJ~412A.
+The recent detection of circularly polarized, variable low-frequency radio emission from the M~dwarf GJ\,1151 has been interpreted as a Jupiter-like electron cyclotron maser instability arising from star-planet interaction. The existence or parameters of the proposed planets have not been determined. In order to search for any planets or binary companions, we have obtained new HARPS-N observations
 
-Using these data we do not detect a clear planetary signal for either star, and we put $99^{\text{th}}$-percentile upper limits on the mass of any companion to GJ~412A and GJ~1151 at 3.5~\mearth and 5.1~\mearth respectively. 
+Using these data we do not detect a clear planetary signal, and we put $99^{\text{th}}$-percentile upper limits on the mass of any companion to GJ\,1151 at 5.1~\mearth. 
 
-We infer interpolated, high-SNR, high-resolution spectra of GJ~1151.
+We infer interpolated, high-SNR, high-resolution spectra of GJ\,1151.
 \href{https://github.com/benjaminpope/video}{\color{linkcolor}\faGithub} % shamelessly borrowed from Luger!
 
 \end{abstract}
@@ -231,16 +231,14 @@ We infer interpolated, high-SNR, high-resolution spectra of GJ~1151.
 
 Exoplanet science has flourished over the last three decades to be one of the major topics in optical astronomy. The number of known planets has doubled nearly every two years since 1995 \citep{Mamajek2016} and this accelerating rate of discovery is projected to continue for at least the next decade if current and upcoming space-based surveys deliver their expected results. However despite extensive searches \citep{2000ApJ...545.1058B,2013A&A...552A..65L,2018MNRAS.tmp.1077L} neither exoplanets nor their host stars have been detected at radio frequencies, as the quiescent emission of such systems has been too faint for current telescopes. But as the Square Kilometre Array \citep[SKA;][]{2009IEEEP..97.1482D} and its precursors, in particular LOFAR \citep[the LOw-Frequency ARray:][]{lofar} come online, the orders-of-magnitude increase in sensitivity and survey speed they provide makes the detection of nearby stars and planets a realistic prospect \citep{pope19}. 
 
-Rather than explicitly searching for radio emission from known exoplanet hosts, \citet{Callingham_2019} cross-matched sources identified by the LOFAR Two-meter Sky Survey \citep[LoTSS:][]{lotss} with nearby stellar sources found by \gaia, finding the great majority of matches to be chance associations. But by restricting the survey to variable and circularly-polarized emission, the rate of chance associations with background radio galaxies is dramatically reduced. Based on this restricted cross-match, Vedantham et al. (submitted) and Callingham et al. (submitted) have detected the red dwarfs GJ~1151 and GJ~412A \citep[M1.0:][]{} respectively at low radio frequencies with LOFAR, finding a high degree of circular polarization consistent with a possible star-planet magnetic interaction analogous to a scaled-up Jupiter and Io. 
+Rather than explicitly searching for radio emission from known exoplanet hosts, \citet{Callingham_2019} cross-matched sources identified by the LOFAR Two-meter Sky Survey \citep[LoTSS:][]{lotss} with nearby stellar sources found by \gaia, finding the great majority of matches to be chance associations. But by restricting the survey to variable and circularly-polarized emission, the rate of chance associations with background radio galaxies is dramatically reduced. Based on this restricted cross-match, Vedantham et al. (submitted) have detected the M4.5 dwarf GJ\,1151 at low radio frequencies with LOFAR, finding a high degree of circular polarization consistent with a possible star-planet magnetic interaction analogous to a scaled-up Jupiter and Io. 
 
-In this Letter we analyze new HARPS-N \citep[High Accuracy Radial velocity Planet Searcher:][]{harpsn} observations of GJ~1151, and re-analyze archival Keck-HIRES \citep{hires} observations of GJ~412A, in order to search for radial velocity signals of the proposed planets. We do not detect either planet, but place strong upper limits of a few Earth masses on the $M\,\sin\,{i}$ of any possible companions, ruling out any short-period massive objects in both cases, and with great certainty any close binary companion to GJ~1151 or previously-unknown companions to GJ~412A.  
+In this Letter we analyze new HARPS-N \citep[High Accuracy Radial velocity Planet Searcher:][]{harpsn} observations of GJ\,1151 in order to search for radial velocity signals of the proposed planets. We do not detect any planet, but place strong upper limits of a few Earth masses on the $M\sin{i}$ of any possible companions, ruling out any short-period massive objects or close binary companion.  
 
 \section{RV Data}
 \label{sec:k2}
 
-We obtained 20 epochs of observations of GJ~1151 with HARPS-N from 2018-12-20 to 2019-02-27. While RVs were extracted from these using the standard HARPS pipeline, its performance on this M4.5 dwarf was very poor, resulting in a spurious RV scatter of several km/s. We therefore reprocessed these data using \textit{wobble} \citep{wobble}, a data-driven package which simultaneously non-parametrically constructs a stellar spectral template and telluric spectral components and uses these, rather than model spectral masks, to extract radial velocities. We found that the second epoch (2018-12-22) had a significantly higher extracted RV uncertainty than the others, and accordingly excluded this from the global \textit{wobble} model. In order to assess template-dependent systematic errors, we conducted a `leave-one-out' cross-validation, excluding one additional epoch at a time and rerunning \textit{wobble} to search for consistency between the outputs. As seen in Figure~\ref{xvalidation}, the different resulting time series are broadly consistent in their directions of deviation from the mean, with a scatter between them of order $\sim$ the quoted uncertainties. We therefore believe the uncertainties on the \textit{wobble} RVs are realistic but that they are also model-dependent systematics, and therefore likely correlated. 
-
-In their publication, \citet{hires} did not claim a detection of any planet-like Keplerian signal from GJ~412A, though they did identify a 28~day period in the S~indices of activity. We re-analyze their data to search for possible planet signals, but do not re-extract RVs, censoring only two outliers with $\text{RV}>10\,\text{m/s}$. Unlike the months of observations of GJ~1151, these data consist of 164 epochs over a sixteen-year period with very irregular sampling, though half of these epochs come in pairs separated by one day, and a quarter in triplets separated by one day, so that these data critically-sample 2~day periods.
+We obtained 20 epochs of observations of GJ\,1151 with HARPS-N from 2018-12-20 to 2019-02-27. While RVs were extracted from these using the standard HARPS pipeline, its performance on this M4.5 dwarf was very poor, resulting in a spurious RV scatter of several km/s. We therefore reprocessed these data using \textit{wobble} \citep{wobble}, a data-driven package which simultaneously non-parametrically constructs a stellar spectral template and telluric spectral components and uses these, rather than model spectral masks, to extract radial velocities. We found that the second epoch (2018-12-22) had a significantly higher extracted RV uncertainty than the others, and accordingly excluded this from the global \textit{wobble} model. In order to assess template-dependent systematic errors, we conducted a `leave-one-out' cross-validation, excluding one additional epoch at a time and rerunning \textit{wobble} to search for consistency between the outputs. As seen in Figure~\ref{xvalidation}, the different resulting time series are broadly consistent in their directions of deviation from the mean, with a scatter between them of order $\sim$ the quoted uncertainties. We therefore believe the uncertainties on the \textit{wobble} RVs are realistic but that they are also model-dependent systematics, and therefore likely correlated. 
 
 
 \begin{figure}
@@ -254,29 +252,22 @@ Leave-one-out cross-validation of \textit{wobble} RVs. One epoch at a time is le
 \section{Keplerian Inference}
 \label{sec:joker}
 
-For both stars we use \textit{the Joker} pipeline \citep{joker}, which is optimized for small numbers of irregularly-spaced observations, to fit Keplerian signals and infer posterior planet parameters. We allow an additional astrophysical jitter (white noise) term to vary with a lognormal prior on jitter $\ln {(s/(\text{m/s}))^2} \sim {N}(1,2)$ for GJ~1151, while a larger, fixed jitter of 5~m/s is required for GJ~412A.
+We use \textit{the Joker} pipeline \citep{joker}, which is optimized for small numbers of irregularly-spaced observations, to fit Keplerian signals and infer posterior planet parameters. We allow an additional astrophysical jitter (white noise) term to vary with a lognormal prior on jitter $\ln {(s/(\text{m/s}))^2} \sim {N}(1,2)$ for GJ\,1151.
 
 \begin{figure}
 \noindent\includegraphics[width=15cm,keepaspectratio]{gj1151b_samples_trend.png}
 
 \caption{\label{jokermodel1151}
-\textit{The Joker} posterior samples for GJ~1151.
+\textit{The Joker} posterior samples for GJ\,1151.
 }
 \end{figure}
 
-\begin{figure}
-\noindent\includegraphics[width=15cm,keepaspectratio]{gj412A_samples_trend.png}
-
-\caption{\label{jokermodel412A}
-\textit{The Joker} posterior samples for GJ~412A.
-}
-\end{figure}
 
 \begin{figure}
 \noindent\includegraphics[width=15cm,keepaspectratio]{gj1151_cornerplot_km_trend.png}
 
 \caption{\label{cornerplot}
-Cornerplot of posterior samples from \textit{The Joker} for GJ~1151.
+Cornerplot of posterior samples from \textit{The Joker} for GJ\,1151.
 }
 \end{figure}
 
@@ -286,7 +277,7 @@ Cornerplot of posterior samples from \textit{The Joker} for GJ~1151.
 \section{Conclusions}
 \label{sec:conclusions}
 
-The results of this analysis conclusively rule out binary companions or planets on short orbits more massive than Neptune as the origin of the radio signals from GJ~1151 and GJ~412A. We nevertheless cannot rule out in either case planets less massive than a few Earth masses. Given that Vedantham et al. (submitted) find that even a planet with a mass around that of $\sim$Mercury could explain these signals, there is a very large region of parameter space for these planets that cannot be excluded and the planet hypothesis remains reasonable. Because both targets are so red, to achieve significantly higher precision than attained by HIRES or HARPS would require moving to the infrared, using one of the IR precision RV instruments currently being commissioned, such as the Habitable-zone Planet Finder \citep[HPF:][]{hpf}.
+The results of this analysis conclusively rule out binary companions or planets on short orbits more massive than Neptune as the origin of the radio signal from GJ\,1151. We nevertheless cannot rule out in either case planets less massive than a few Earth masses. Given that Vedantham et al. (submitted) find that even a planet with a mass around that of $\sim$Mercury could explain these signals, there is a very large region of parameter space for these planets that cannot be excluded and the planet hypothesis remains reasonable. Because our target is so red, to achieve significantly higher precision than attained by HARPS would require moving to the infrared, using one of the IR precision RV instruments currently being commissioned, such as the Habitable-zone Planet Finder \citep[HPF:][]{hpf} or CARMENES \citep{carmenes}, by which GJ\,1151 is already subject to monitoring \citep{carmenesinput}.
 
 \section*{Acknowledgements} % add your acknowledgements text here!
 

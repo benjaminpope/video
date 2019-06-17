@@ -5,6 +5,12 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{{Alonso-Floriano} {et~al.}(2015){Alonso-Floriano}, {Morales},
+  {Caballero}, {Montes}, {Klutsch}, {Mundt}, {Cort{\'e}s-Contreras}, {Ribas},
+  {Reiners}, {Amado}, {Quirrenbach}, \& {Jeffers}}]{carmenesinput}
+{Alonso-Floriano}, F.~J., {Morales}, J.~C., {Caballero}, J.~A., {et~al.} 2015,
+  \aap, 577, A128, \dodoi{10.1051/0004-6361/201525803}
+
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
   {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
@@ -26,12 +32,6 @@
 {Bedell}, M., {Hogg}, D.~W., {Foreman-Mackey}, D., {Montet}, B.~T., \& {Luger},
   R. 2019, arXiv e-prints.
 \newblock \doarXiv{1901.00503}
-
-\bibitem[{{Butler} {et~al.}(2017){Butler}, {Vogt}, {Laughlin}, {Burt},
-  {Rivera}, {Tuomi}, {Teske}, {Arriagada}, {Diaz}, {Holden}, \&
-  {Keiser}}]{hires}
-{Butler}, R.~P., {Vogt}, S.~S., {Laughlin}, G., {et~al.} 2017, \aj, 153, 208,
-  \dodoi{10.3847/1538-3881/aa66ca}
 
 \bibitem[{Callingham {et~al.}(2019)Callingham, Vedantham, Pope, \&
   and}]{Callingham_2019}
@@ -91,6 +91,23 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   {Foreman-Mackey}, \& {Rix}}]{joker}
 {Price-Whelan}, A.~M., {Hogg}, D.~W., {Foreman-Mackey}, D., \& {Rix}, H.-W.
   2017, \apj, 837, 20, \dodoi{10.3847/1538-4357/aa5e50}
+
+\bibitem[{{Quirrenbach} {et~al.}(2010){Quirrenbach}, {Amado}, {Mandel},
+  {Caballero}, {Mundt}, {Ribas}, {Reiners}, {Abril}, {Aceituno}, {Afonso},
+  {Barrado y Navascues}, {Bean}, {B{\'e}jar}, {Becerril}, {B{\"o}hm},
+  {C{\'a}rdenas}, {Claret}, {Colom{\'e}}, {Costillo}, {Dreizler},
+  {Fern{\'a}ndez}, {Francisco}, {Galad{\'{\i}}}, {Garrido}, {Gonz{\'a}lez
+  Hern{\'a}ndez}, {Gu{\`a}rdia}, {Guenther}, {Guti{\'e}rrez-Soto}, {Joergens},
+  {Hatzes}, {Helmling}, {Henning}, {Herrero}, {K{\"u}rster}, {Laun}, {Lenzen},
+  {Mall}, {Martin}, {Mart{\'{\i}}n-Ruiz}, {Mirabet}, {Montes}, {Morales},
+  {Morales Mu{\~n}oz}, {Moya}, {Naranjo}, {Rabaza}, {Ram{\'o}n}, {Rebolo},
+  {Reffert}, {Rodler}, {Rodr{\'{\i}}guez}, {Rodr{\'{\i}}guez Trinidad},
+  {Rohloff}, {S{\'a}nchez Carrasco}, {Schmidt}, {Seifert}, {Setiawan},
+  {Solano}, {Stahl}, {Storz}, {Su{\'a}rez}, {Thiele}, {Wagner}, {Wiedemann},
+  {Zapatero Osorio}, {del Burgo}, {S{\'a}nchez-Blanco}, \& {Xu}}]{carmenes}
+{Quirrenbach}, A., {Amado}, P.~J., {Mandel}, H., {et~al.} 2010, in \procspie,
+  Vol. 7735, Ground-based and Airborne Instrumentation for Astronomy III,
+  773513
 
 \bibitem[{{Shimwell} {et~al.}(2019){Shimwell}, {Tasse}, {Hardcastle}, {Mechev},
   {Williams}, {Best}, {R{\"o}ttgering}, {Callingham}, {Dijkema}, {de Gasperin},
