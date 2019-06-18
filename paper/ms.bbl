@@ -33,6 +33,10 @@
   R. 2019, arXiv e-prints.
 \newblock \doarXiv{1901.00503}
 
+\bibitem[{{Burkhart} \& {Loeb}(2017)}]{2017ApJ...849L..10B}
+{Burkhart}, B., \& {Loeb}, A. 2017, \apjl, 849, L10,
+  \dodoi{10.3847/2041-8213/aa9112}
+
 \bibitem[{Callingham {et~al.}(2019)Callingham, Vedantham, Pope, \&
   and}]{Callingham_2019}
 Callingham, J.~R., Vedantham, H.~K., Pope, B. J.~S., \& and, T. W.~S. 2019,
@@ -80,10 +84,15 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 {Lecavelier des Etangs}, A., {Sirothia}, S.~K., {Gopal-Krishna}, \& {Zarka}, P.
   2013, \aap, 552, A65, \dodoi{10.1051/0004-6361/201219789}
 
+\bibitem[{{Lenc} {et~al.}(2018){Lenc}, {Murphy}, {Lynch}, {Kaplan}, \&
+  {Zhang}}]{Lenc18}
+{Lenc}, E., {Murphy}, T., {Lynch}, C.~R., {Kaplan}, D.~L., \& {Zhang}, S.~N.
+  2018, \mnras, 478, 2835, \dodoi{10.1093/mnras/sty1304}
+
 \bibitem[{{Lynch} {et~al.}(2018){Lynch}, {Murphy}, {Lenc}, \&
-  {Kaplan}}]{2018MNRAS.tmp.1077L}
-{Lynch}, C.~R., {Murphy}, T., {Lenc}, E., \& {Kaplan}, D.~L. 2018, \mnras,
-  \dodoi{10.1093/mnras/sty1138}
+  {Kaplan}}]{Lynch18}
+{Lynch}, C.~R., {Murphy}, T., {Lenc}, E., \& {Kaplan}, D.~L. 2018, \mnras, 478,
+  1763, \dodoi{10.1093/mnras/sty1138}
 
 \bibitem[{{Mahadevan} {et~al.}(2012){Mahadevan}, {Ramsey}, {Bender}, {Terrien},
   {Wright}, {Halverson}, {Hearty}, {Nelson}, {Burton}, {Redman}, {Osterman},
@@ -160,6 +169,11 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 {Tilley}, M.~A., {Segura}, A., {Meadows}, V., {Hawley}, S., \& {Davenport}, J.
   2019, Astrobiology, 19, 64, \dodoi{10.1089/ast.2017.1794}
 
+\bibitem[{{Turnpenney} {et~al.}(2018){Turnpenney}, {Nichols}, {Wynn}, \&
+  {Burleigh}}]{2018ApJ...854...72T}
+{Turnpenney}, S., {Nichols}, J.~D., {Wynn}, G.~A., \& {Burleigh}, M.~R. 2018,
+  \apj, 854, 72, \dodoi{10.3847/1538-4357/aaa59c}
+
 \bibitem[{{van Haarlem} {et~al.}(2013){van Haarlem}, {Wise}, {Gunst}, {Heald},
   {McKean}, {Hessels}, {de Bruyn}, {Nijboer}, {Swinbank}, {Fallows},
   {Brentjens}, {Nelles}, {Beck}, {Falcke}, {Fender}, {H{\"o}randel},
@@ -195,6 +209,12 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   Zwieten}}]{lofar}
 {van Haarlem}, M.~P., {Wise}, M.~W., {Gunst}, A.~W., {et~al.} 2013, \aap, 556,
   A2, \dodoi{10.1051/0004-6361/201220873}
+
+\bibitem[{{Vidotto} {et~al.}(2019){Vidotto}, {Feeney}, \&
+  {Groh}}]{2019arXiv190607089V}
+{Vidotto}, A.~A., {Feeney}, N., \& {Groh}, J.~H. 2019, arXiv e-prints,
+  arXiv:1906.07089.
+\newblock \doarXiv{1906.07089}
 
 \bibitem[{{Villadsen} \& {Hallinan}(2019)}]{Villadsen19}
 {Villadsen}, J., \& {Hallinan}, G. 2019, \apj, 871, 214,
