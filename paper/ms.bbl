@@ -53,11 +53,6 @@ Callingham, J.~R., Vedantham, H.~K., Pope, B. J.~S., \& and, T. W.~S. 2019,
 {Cosentino}, R., {Lovis}, C., {Pepe}, F., {et~al.} 2012, in \procspie, Vol.
   8446, Ground-based and Airborne Instrumentation for Astronomy IV, 84461V
 
-\bibitem[{{Dewdney} {et~al.}(2009){Dewdney}, {Hall}, {Schilizzi}, \&
-  {Lazio}}]{2009IEEEP..97.1482D}
-{Dewdney}, P.~E., {Hall}, P.~J., {Schilizzi}, R.~T., \& {Lazio}, T.~J.~L.~W.
-  2009, IEEE Proceedings, 97, 1482, \dodoi{10.1109/JPROC.2009.2021005}
-
 \bibitem[{{Garraffo} {et~al.}(2016){Garraffo}, {Drake}, \&
   {Cohen}}]{2016ApJ...833L...4G}
 {Garraffo}, C., {Drake}, J.~J., \& {Cohen}, O. 2016, \apjl, 833, L4,
@@ -88,6 +83,11 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   {Zhang}}]{Lenc18}
 {Lenc}, E., {Murphy}, T., {Lynch}, C.~R., {Kaplan}, D.~L., \& {Zhang}, S.~N.
   2018, \mnras, 478, 2835, \dodoi{10.1093/mnras/sty1304}
+
+\bibitem[{{Lynch} {et~al.}(2017){Lynch}, {Lenc}, {Kaplan}, {Murphy}, \&
+  {Anderson}}]{2017ApJ...836L..30L}
+{Lynch}, C.~R., {Lenc}, E., {Kaplan}, D.~L., {Murphy}, T., \& {Anderson}, G.~E.
+  2017, \apj, 836, L30, \dodoi{10.3847/2041-8213/aa5ffd}
 
 \bibitem[{{Lynch} {et~al.}(2018){Lynch}, {Murphy}, {Lenc}, \&
   {Kaplan}}]{Lynch18}
@@ -219,5 +219,8 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 \bibitem[{{Villadsen} \& {Hallinan}(2019)}]{Villadsen19}
 {Villadsen}, J., \& {Hallinan}, G. 2019, \apj, 871, 214,
   \dodoi{10.3847/1538-4357/aaf88e}
+
+\bibitem[{{Zarka}(2007)}]{2007P&SS...55..598Z}
+{Zarka}, P. 2007, \planss, 55, 598, \dodoi{10.1016/j.pss.2006.05.045}
 
 \end{thebibliography}
