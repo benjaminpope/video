@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 JUN 2019 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 JUL 2019 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,21 +526,21 @@ Overfull \vbox (3.06853pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] <comparison_validation.pdf, id=113, 765.98672pt x 517.15842pt>
+[2] <comparison_validation.pdf, id=116, 765.98672pt x 517.15842pt>
 File: comparison_validation.pdf Graphic file (type pdf)
 
 <use comparison_validation.pdf>
 Package pdftex.def Info: comparison_validation.pdf used on input line 249.
 (pdftex.def)             Requested size: 426.79134pt x 288.15475pt.
  [3 <./comparison_validation.pdf>]
-<gj1151b_samples_trend.png, id=174, 516.7305pt x 383.39235pt>
+<gj1151b_samples_trend.png, id=177, 516.7305pt x 383.39235pt>
 File: gj1151b_samples_trend.png Graphic file (type png)
 
 <use gj1151b_samples_trend.png>
 Package pdftex.def Info: gj1151b_samples_trend.png used on input line 262.
 (pdftex.def)             Requested size: 426.79134pt x 316.66528pt.
 
-<cornerplot_km_trend.png, id=176, 687.2877pt x 691.98524pt>
+<cornerplot_km_trend.png, id=179, 687.2877pt x 691.98524pt>
 File: cornerplot_km_trend.png Graphic file (type png)
 
 <use cornerplot_km_trend.png>
@@ -557,10 +557,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 10404 strings out of 492995
- 145206 string characters out of 6132704
- 297479 words of memory out of 5000000
- 13798 multiletter control sequences out of 15000+600000
+ 10409 strings out of 492995
+ 145337 string characters out of 6132704
+ 298856 words of memory out of 5000000
+ 13802 multiletter control sequences out of 15000+600000
  16397 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,7n,37p,2418b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -582,10 +582,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on ms.pdf (7 pages, 1246672 bytes).
+Output written on ms.pdf (7 pages, 1247263 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 323 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
