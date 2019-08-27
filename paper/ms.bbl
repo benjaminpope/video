@@ -53,6 +53,11 @@ Callingham, J.~R., Vedantham, H.~K., Pope, B. J.~S., \& and, T. W.~S. 2019,
 {Cosentino}, R., {Lovis}, C., {Pepe}, F., {et~al.} 2012, in \procspie, Vol.
   8446, Ground-based and Airborne Instrumentation for Astronomy IV, 84461V
 
+\bibitem[{{Garcia-Sage} {et~al.}(2017){Garcia-Sage}, {Glocer}, {Drake},
+  {Gronoff}, \& {Cohen}}]{2017ApJ...844L..13G}
+{Garcia-Sage}, K., {Glocer}, A., {Drake}, J.~J., {Gronoff}, G., \& {Cohen}, O.
+  2017, \apjl, 844, L13, \dodoi{10.3847/2041-8213/aa7eca}
+
 \bibitem[{{Garraffo} {et~al.}(2016){Garraffo}, {Drake}, \&
   {Cohen}}]{2016ApJ...833L...4G}
 {Garraffo}, C., {Drake}, J.~J., \& {Cohen}, O. 2016, \apjl, 833, L4,
@@ -137,6 +142,12 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 {Quirrenbach}, A., {Amado}, P.~J., {Mandel}, H., {et~al.} 2010, in \procspie,
   Vol. 7735, Ground-based and Airborne Instrumentation for Astronomy III,
   773513
+
+\bibitem[{{Ribas} {et~al.}(2016){Ribas}, {Bolmont}, {Selsis}, {Reiners},
+  {Leconte}, {Raymond}, {Engle}, {Guinan}, {Morin}, {Turbet}, {Forget}, \&
+  {Anglada-Escud{\'e}}}]{2016A&A...596A.111R}
+{Ribas}, I., {Bolmont}, E., {Selsis}, F., {et~al.} 2016, \aap, 596, A111,
+  \dodoi{10.1051/0004-6361/201629576}
 
 \bibitem[{{Shields} {et~al.}(2016){Shields}, {Ballard}, \&
   {Johnson}}]{Shields16}
@@ -228,5 +239,10 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 
 \bibitem[{{Zarka}(2007)}]{2007P&SS...55..598Z}
 {Zarka}, P. 2007, \planss, 55, 598, \dodoi{10.1016/j.pss.2006.05.045}
+
+\bibitem[{{Zuluaga} {et~al.}(2013){Zuluaga}, {Bustamante}, {Cuartas}, \&
+  {Hoyos}}]{2013ApJ...770...23Z}
+{Zuluaga}, J.~I., {Bustamante}, S., {Cuartas}, P.~A., \& {Hoyos}, J.~H. 2013,
+  \apj, 770, 23, \dodoi{10.1088/0004-637X/770/1/23}
 
 \end{thebibliography}
