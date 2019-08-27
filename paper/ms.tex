@@ -246,7 +246,7 @@ We obtained 20 epochs of observations of GJ\,1151 with HARPS-N from 2018-12-20 t
 We found that the second epoch (2018-12-22) had a significantly higher extracted RV uncertainty than the others, and accordingly excluded this from the global \textit{wobble} model. In order to assess template-dependent systematic errors, we conducted a `leave-one-out' cross-validation, excluding one additional epoch at a time and rerunning \textit{wobble} to search for consistency between the outputs. As seen in Figure~\ref{xvalidation}, the different resulting time series are broadly consistent in their directions of deviation from the mean, with a scatter between them of order $\sim$ the quoted uncertainties. We therefore believe the uncertainties on the \textit{wobble} RVs are realistic but that they are also model-dependent systematics, and therefore likely correlated. 
 
 \begin{figure}
-\noindent\includegraphics[width=15cm,keepaspectratio]{comparison_validation.pdf}
+\plotone{comparison_validation.pdf}
 
 \caption{\label{xvalidation}
 Leave-one-out cross-validation of \textit{wobble} RVs. One epoch at a time is left out of the global model, and the results of processing the remaining epochs are shown in different colours. There is overall consistency between the different time series, with a diversity of order $\sim$ the quoted uncertainty between the individual realizations. % redo for complete cross-validation and final epoch added in
@@ -259,8 +259,7 @@ Leave-one-out cross-validation of \textit{wobble} RVs. One epoch at a time is le
 We use \textit{the Joker} pipeline \citep{joker}, which is optimized for small numbers of irregularly-spaced observations, to fit Keplerian signals and infer posterior planet parameters. We allow an additional astrophysical jitter (white noise) term to vary with a lognormal prior on jitter $\ln {(s/(\text{m/s}))^2} \sim {N}(1,2)$ for GJ\,1151.
 
 \begin{figure}
-\noindent\includegraphics[width=15cm,keepaspectratio]{gj1151b_samples_trend.png}
-
+\plotone{gj1151b_samples_trend.png}
 \caption{\label{jokermodel1151}
 \textit{The Joker} posterior samples for GJ\,1151.
 }
@@ -268,7 +267,7 @@ We use \textit{the Joker} pipeline \citep{joker}, which is optimized for small n
 
 
 \begin{figure}
-\noindent\includegraphics[width=15cm,keepaspectratio]{cornerplot_km_trend.png}
+\plotone{cornerplot_km_trend.png}
 
 \caption{\label{cornerplot}
 Cornerplot of posterior samples from \textit{The Joker} for GJ\,1151.
